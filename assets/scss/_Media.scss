@@ -1,0 +1,20 @@
+@media(min-width:860px){
+    .Fondo{
+        background-position: -80PX;
+    }
+}
+@media(min-width:960px){
+    .Fondo{
+        background-position: 0PX;
+        height: 800PX;
+    }
+    .derechos{
+        font-size: 12px;
+    }
+}
+@media(min-width:1200px){
+    .Fondo{
+        background-position: 0PX;
+        height: 1000PX;
+    }
+}

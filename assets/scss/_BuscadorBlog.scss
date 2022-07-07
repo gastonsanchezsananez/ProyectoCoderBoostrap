@@ -1,0 +1,12 @@
+.buscador{
+    border: 2px $ColorPrimario;
+    border-style: solid;
+    border-radius: 30px;
+    height: 40px;
+    .buscarTexto{
+        border: none;
+        background: none;
+        outline: none;
+        color: $ColorSecundario;
+    }
+}

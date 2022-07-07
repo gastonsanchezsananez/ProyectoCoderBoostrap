@@ -1,0 +1,9 @@
+.footer{
+    background-color: $ColorPrimario;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    .derechos{
+        font-size: 10px;
+    }
+}

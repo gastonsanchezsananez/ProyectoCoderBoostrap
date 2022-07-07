@@ -1,0 +1,22 @@
+.Boton{
+    background: linear-gradient(rgba(0, 0, 0, 0.281),rgba(0, 0, 0, 0.274));
+    border: $ColorPrimario;
+    border-style: solid;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin: 3px;
+    &:hover{
+        background-color: $ColorPrimario;
+    }
+}
+
+.Boton1{
+    background-color: $ColorPrimario;
+    border: $ColorPrimario;
+    border-style: solid;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin: 3px;
+}

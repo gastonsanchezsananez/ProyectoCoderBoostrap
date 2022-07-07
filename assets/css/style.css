@@ -1,92 +1,101 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.footer{
-    background-color: #FFB319;
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-}
-.derechos{
-    font-size: 10px;
-}
-.tarjeta{
-    box-shadow: 1px 1px 1px 2px #f3f3f3;
-    border-radius: 10px;
-    height: 250px;
-}
-.Fondo{
-    background-image: url(../img/contacto\ \(1\).jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: -170px;
-    height: 600px;
-}
-.FondoBlog{
-    background-image: url(../img/Blog/fondo\ con\ elementos.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 400px;
-}
-.Boton{
-    background: linear-gradient(rgba(0, 0, 0, 0.281),rgba(0, 0, 0, 0.274));
-    border: #FFB319;
-    border-style: solid;
-    border-radius: 100%;
-    width: 90px;
-    height: 90px;
-    margin: 3px;
-}
-.Boton:hover{
-    background-color: #FFB319;
-}
-.Boton1{
-    background-color: #FFB319;
-    border: #FFB319;
-    border-style: solid;
-    border-radius: 100%;
-    width: 90px;
-    height: 90px;
-    margin: 3px;
-}
-.buscador{
-    border: 2px #FFB319;
-    border-style: solid;
-    border-radius: 30px;
-    height: 40px;
-}
-.buscarTexto{
-    border: none;
-    background: none;
-    outline: none;
-    color: #081920;
-}
-.card{
-    height: 450px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.img{
-    height: 200px;
+.footer {
+  background-color: #FFB319;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
 }
-@media(min-width:860px){
-    .Fondo{
-        background-position: -80PX;
-    }
+.footer .derechos {
+  font-size: 10px;
 }
-@media(min-width:960px){
-    .Fondo{
-        background-position: 0PX;
-        height: 800PX;
-    }
-    .derechos{
-        font-size: 12px;
-    }
+
+.tarjeta {
+  box-shadow: 1px 1px 1px 2px #f3f3f3;
+  border-radius: 10px;
+  height: 250px;
 }
-@media(min-width:1200px){
-    .Fondo{
-        background-position: 0PX;
-        height: 1000PX;
-    }
+
+.Fondo {
+  background-image: url(../img/contacto\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -170px;
+  height: 600px;
+}
+
+.FondoBlog {
+  background-image: url(../img/Blog/fondo\ con\ elementos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.Boton {
+  background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.274));
+  border: #FFB319;
+  border-style: solid;
+  border-radius: 100%;
+  width: 90px;
+  height: 90px;
+  margin: 3px;
+}
+.Boton:hover {
+  background-color: #FFB319;
+}
+
+.Boton1 {
+  background-color: #FFB319;
+  border: #FFB319;
+  border-style: solid;
+  border-radius: 100%;
+  width: 90px;
+  height: 90px;
+  margin: 3px;
+}
+
+.buscador {
+  border: 2px #FFB319;
+  border-style: solid;
+  border-radius: 30px;
+  height: 40px;
+}
+.buscador .buscarTexto {
+  border: none;
+  background: none;
+  outline: none;
+  color: #081920;
+}
+
+.card {
+  height: 450px;
+}
+.card .img {
+  height: 200px;
+}
+
+@media (min-width: 860px) {
+  .Fondo {
+    background-position: -80PX;
+  }
+}
+@media (min-width: 960px) {
+  .Fondo {
+    background-position: 0PX;
+    height: 800PX;
+  }
+
+  .derechos {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  .Fondo {
+    background-position: 0PX;
+    height: 1000PX;
+  }
 }
