@@ -1,5 +1,5 @@
 .footer{
-    background-color: $ColorPrimario;
+    background-color: map-get($Colores , primario );
     display: flex;
     justify-content: space-between;
     height: 80px;

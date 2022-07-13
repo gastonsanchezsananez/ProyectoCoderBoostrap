@@ -1,22 +1,14 @@
 .Boton{
     background: linear-gradient(rgba(0, 0, 0, 0.281),rgba(0, 0, 0, 0.274));
-    border: $ColorPrimario;
+    border: map-get($Colores , primario );
     border-style: solid;
-    border-radius: 100%;
-    width: 90px;
-    height: 90px;
-    margin: 3px;
+    @include botonesBlog (100px,3px,100px,100%);
     &:hover{
-        background-color: $ColorPrimario;
+        background-color: map-get($Colores , primario );
     }
 }
 
 .Boton1{
-    background-color: $ColorPrimario;
-    border: $ColorPrimario;
-    border-style: solid;
-    border-radius: 100%;
-    width: 90px;
-    height: 90px;
-    margin: 3px;
+    background-color: map-get($Colores , primario );
+    @extend .Boton;
 }

@@ -1,5 +1,5 @@
 .buscador{
-    border: 2px $ColorPrimario;
+    border: 2px map-get($Colores , primario );
     border-style: solid;
     border-radius: 30px;
     height: 40px;
@@ -7,6 +7,6 @@
         border: none;
         background: none;
         outline: none;
-        color: $ColorSecundario;
+        color: map-get($Colores , secundario );
     }
 }

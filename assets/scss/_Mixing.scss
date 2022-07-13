@@ -1,0 +1,11 @@
+@mixin tarjetaInicio ($sombra,$contorno,$altura) {
+    box-shadow: $sombra;
+    border-radius: $contorno;
+    height: $altura;
+};
+@mixin botonesBlog ($altura,$margen,$ancho,$contorno){
+    height: $altura;
+    margin: $margen;
+    width: $ancho;
+    border-radius: $contorno;
+}
