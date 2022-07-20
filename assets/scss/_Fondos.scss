@@ -1,0 +1,11 @@
+.FondoContacto{
+    @include fondo(url(../img/contacto\ \(1\).jpg), cover, no-repeat, 600px);
+    
+}
+.FondoBlog{
+    @include fondo(url(../img/Blog/fondo\ con\ elementos.jpg), cover, no-repeat, 500px);
+}
+.HeaderAfiliados{
+    @include fondo(url(../img/afiliados/veterinaria-fondo.jpg), cover, no-repeat,500px);
+    background-position: -460px;
+}

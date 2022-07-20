@@ -2,10 +2,16 @@
     box-shadow: $sombra;
     border-radius: $contorno;
     height: $altura;
-};
+}
 @mixin botonesBlog ($altura,$margen,$ancho,$contorno){
     height: $altura;
     margin: $margen;
     width: $ancho;
     border-radius: $contorno;
+}
+@mixin fondo ($imagen,$tamano,$repet,$altura){
+    background-image: $imagen;
+    background-size: $tamano;
+    background-repeat: $repet;
+    height: $altura;
 }

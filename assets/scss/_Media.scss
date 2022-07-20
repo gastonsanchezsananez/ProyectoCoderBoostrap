@@ -1,20 +1,32 @@
-@media(min-width:860px){
-    .Fondo{
-        background-position: -80PX;
+@media(min-width:750px){
+    .HeaderAfiliados{
+        background-position: -250px;
     }
+    
 }
 @media(min-width:960px){
-    .Fondo{
-        background-position: 0PX;
+    .FondoContacto{
         height: 800PX;
     }
     .derechos{
         font-size: 12px;
     }
+    .HeaderAfiliados{
+        background-position: -250px;
+        height: 600px;
+    }
 }
 @media(min-width:1200px){
-    .Fondo{
-        background-position: 0PX;
+    .FondoContacto{
         height: 1000PX;
+    }
+    .HeaderAfiliados{
+        background-position: -50px;
+    }
+}
+@media(min-width:1400px){
+    .HeaderAfiliados{
+        background-position: 0;
+
     }
 }

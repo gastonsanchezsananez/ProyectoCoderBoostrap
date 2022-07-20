@@ -1,0 +1,21 @@
+.Filtro{
+    background-color: map-get($Colores , terciario );
+    border: map-get($Colores , primario );
+    border-width: 1PX;
+    border-style: solid;
+    @include botonesBlog (40px,3px,200px,20px);
+    &:hover{
+        background-color: map-get($Colores , primario );
+    }
+}
+.Filtro1{
+    @extend .Filtro;
+    background-color: map-get($Colores , primario );
+}
+.tarjetaAfiliado{
+    @include tarjetaInicio(1px 1px 1px 2px #f3f3f3, 10px, 220px);
+    &:hover{
+        transform: translateX(-15px);
+        box-shadow: 0 8px 8px rgba(20, 20, 18, 0.192);
+    }
+}
