@@ -1,0 +1,29 @@
+.Nosotros{
+    background-image: linear-gradient(120deg, #d8ffff 0, #c2ffff 25%, #aaf0ff 50%, #91e1f4 75%, #7ad3ea 100%);
+}
+.cardNosotros{
+    background-color: #f3f3f3;
+    @include tarjetaInicio (1px 1px 1px 2px #f3f3f3, 10px, 250px);
+    width: 500px;
+    .card-title{
+        color: map-get($Colores , primario );
+    };
+    .linea{
+        height: 2px;
+        color: map-get($Colores , primario );
+        background-color: map-get($Colores , primario );
+    }
+}
+.cardNosotros1{
+    background-color: #f3f3f3;
+    @include tarjetaInicio (1px 1px 1px 2px #f3f3f3, 10px, 360px);
+    width: 500px;
+    .card-title1{
+        color: map-get($Colores , primario );
+    };
+    .linea1{
+        height: 2px;
+        color: map-get($Colores , primario );
+        background-color: map-get($Colores , primario );
+    }
+}
