@@ -2,7 +2,12 @@
     .HeaderAfiliados{
         background-position: -250px;
     }
-    
+    .Filtro{
+        font-size: 14px;
+    }
+    .tarjetaAfiliado{
+        font-size: 16px;
+    }
 }
 @media(min-width:960px){
     .FondoContacto{
@@ -14,6 +19,9 @@
     .HeaderAfiliados{
         background-position: -250px;
         height: 600px;
+    }
+    .Filtro{
+        font-size: 16px;
     }
 }
 @media(min-width:1200px){
