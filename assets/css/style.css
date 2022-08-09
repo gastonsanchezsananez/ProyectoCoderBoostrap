@@ -285,7 +285,8 @@
 }
 
 .FondoC {
-  background: linear-gradient(342deg, rgb(170, 241, 255) 42%, rgba(255, 255, 255, 0.4674157303) 92%);
+  height: 703px;
+  background: linear-gradient(342deg, rgb(170, 241, 255) 42%, rgba(255, 255, 255, 0.4674157303) 82%);
 }
 
 .tarjeta {
@@ -328,6 +329,9 @@
   }
   .Filtro, .Filtro1 {
     font-size: 16px;
+  }
+  .FondoC {
+    height: 800px;
   }
 }
 @media (min-width: 1200px) {
